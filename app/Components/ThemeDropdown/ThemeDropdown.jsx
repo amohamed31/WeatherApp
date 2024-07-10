@@ -10,8 +10,9 @@ import {
 	DropdownMenuContent,
 	DropdownMenuItem,
 	DropdownMenuTrigger,
-} from '@components/dropdown-menu';
+} from '@components/ui/dropdown-menu';
 import { Moon, Sun } from 'lucide-react';
+import { getPathMatch } from 'next/dist/shared/lib/router/utils/path-match';
 
 function ThemeDropdown() {
 	const { setTheme } = useTheme();
